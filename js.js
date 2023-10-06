@@ -21,6 +21,6 @@ const months = [
 ];
 
 dat.innerHTML = (today.getDate()<10?"0":"")+today.getDate();
-day.innerHTML = weekDays[today.getDay()-1];
+day.innerHTML = weekDays[today.getDay()];
 month.innerHTML = months[today.getMonth()];
 year.innerHTML = today.getFullYear();
